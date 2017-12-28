@@ -13,10 +13,10 @@
 /* end hide from IE-mac */
 
 /* Debug Toolbar CSS Reset, adapted from Eric Meyer's CSS Reset */
-#djDebug {color:#000;background:#FFF;}
-#djDebug, #djDebug div, #djDebug span, #djDebug applet, #djDebug object, #djDebug iframe,
-#djDebug h1, #djDebug h2, #djDebug h3, #djDebug h4, #djDebug h5, #djDebug h6, #djDebug p, #djDebug blockquote, #djDebug pre,
-#djDebug a, #djDebug abbr, #djDebug acronym, #djDebug address, #djDebug big, #djDebug cite, #djDebug code,
+/* #djDebug {color:#000;background:#FFF;}
+#djDebug applet, #djDebug object, #djDebug iframe,
+#djDebug h1, #djDebug h2, #djDebug h3, #djDebug h4, #djDebug h5, #djDebug h6, #djDebug p, #djDebug blockquote,
+#djDebug abbr, #djDebug acronym, #djDebug address, #djDebug big, #djDebug cite,
 #djDebug del, #djDebug dfn, #djDebug em, #djDebug font, #djDebug img, #djDebug ins, #djDebug kbd, #djDebug q, #djDebug s, #djDebug samp,
 #djDebug small, #djDebug strike, #djDebug strong, #djDebug sub, #djDebug sup, #djDebug tt, #djDebug var,
 #djDebug b, #djDebug u, #djDebug i, #djDebug center,
@@ -43,7 +43,7 @@
     -moz-transition: none;
     -o-transition: none;
     transition: none;
-}
+} */
 
 #djDebug button, #djDebug a.button {
 	background-color: #eee;
@@ -629,7 +629,7 @@
     overflow: auto;
     padding:2px 3px;
     margin-bottom: 3px;
-    font-family:Consolas, Monaco, "Bitstream Vera Sans Mono", "Lucida Console", monospace;
+    font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Lucida Console", monospace;
 }
 #djDebug .djdt-stack span {
     color: #000;
